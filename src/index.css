@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'Fredoka';
+  /*src: url('/HammerFat.woff2') format('woff2');*/
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Fredoka', sans-serif;
+}
+
+.font-play {
+  font-family: 'Fredoka', cursive;
+}
+
+.btn {
+  @apply bg-fuchsia-700 hover:bg-brand-yellow hover:text-black text-white px-4 py-2 rounded-lg transition;
+}
+
+.btn-outline {
+  @apply border border-brand-yellow text-brand-yellow px-4 py-2 rounded-lg hover:bg-brand-yellow hover:text-black transition;
+}
+
+.input {
+  @apply px-3 py-2 rounded text-black w-full;
+}
