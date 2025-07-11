@@ -1,7 +1,7 @@
 import React from "react"; // <--- NECESSARIO
 import { useState, useEffect } from "react";
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Routes,
   Route
 } from "react-router-dom";
